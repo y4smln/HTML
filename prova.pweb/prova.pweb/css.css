@@ -1,0 +1,34 @@
+BODY {
+background: white;
+}
+
+H1 {
+font-family:arial;
+font-size: large;
+font-weight: bold;
+color:white;
+text-align: left;
+background-color:#800000;
+}
+
+H3 {
+font-family: arial;
+font-size: large;
+font-weight: bold;
+color: black;
+text-align: center;
+border: 10pt red groove
+}
+
+H2 {
+font-family: arial;
+font-size: large;
+font-weight: bold;
+color: black;
+text-align: center;
+border: 10pt red groove
+}
+
+P {
+margin-left: 15px;
+}
