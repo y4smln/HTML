@@ -1,0 +1,28 @@
+<HTML>
+<HEAD>
+<TITLE>Formularios </TITLE>
+</HEAD>
+<FORM action="mailto:seu-email@provedor.com.br" method="post" enctype="text/plain">
+Nome <INPUT type="text" name="nome" size="30" maxlength="100"> <P>
+E-mail <INPUT type="text" name="email" size="25" maxlength="100" value="@"> <P>
+Cidade <INPUT type="text" name="cidade" size="20" maxlength="60"> <P>
+Sexo <BR>
+<INPUT type="radio" name="sexo" value="Masculino" checked> Homem <BR>
+<INPUT type="radio" name="sexo" value="Feminino"> Mulher
+<BR> <BR> Frequência das viagens <BR>
+<SELECT name="utilização">
+<OPTION value="1">Várias vezes por dia
+<OPTION value="2">Uma vez por dia
+<OPTION value="3">Várias vezes por semana
+<OPTION value="4">várias vezes por mês
+</SELECT>
+<BR> <BR>Comentários sobre sua satisfação pessoal <BR>
+<TEXTAREA cols="30" rows="7" name="comentários"></TEXTAREA>
+<BR> <BR>
+<INPUT type="checkbox" name="receber_info" checked>
+Desejo receber notificação das novidades nas linhas de ônibus. <BR> <BR>
+<INPUT type="submit" value="Enviar formulário">
+<BR> <BR>
+<INPUT type="Reset" value="Apagar tudo">
+</FORM>
+</HTML>
