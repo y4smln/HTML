@@ -1,0 +1,70 @@
+BODY {
+background: white;
+}
+
+H1 {
+
+font-size: 38px;
+font-weight: bold;
+color:#FF4501;
+text-align: center;
+;
+}
+
+H3 {
+
+font-size: large;
+font-weight: bold;
+color: white;
+text-align: center;
+
+}
+
+H2 {
+
+font-size: 25px;
+font-weight: bold;
+color: #FF4501;
+text-align: center;
+
+}
+H4 {
+
+font-size: 16px;
+font-weight:normal;
+color: black;
+text-align: left;
+
+}
+
+H5 {
+
+font-size: 18px;
+font-weight: bold;
+color: #FF4501;
+text-align: left;
+
+}
+
+P {
+margin-left: 16px;
+
+}
+ table, th, td{
+border:20px solid #00AA90;
+border-collapse: collapse;
+
+ }
+ 
+ th, td {
+	 padding: 6px 10px;
+ }
+ 
+ th{
+	 background-color: rgb(0, 169, 144);
+ }
+ 
+ *{
+	 font-family: verdana;
+ }
+ 
